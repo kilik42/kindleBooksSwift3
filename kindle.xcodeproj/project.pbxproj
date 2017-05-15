@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106A60741ECA67FB00D5E4F3 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106A60731ECA67FB00D5E4F3 /* models.swift */; };
 		106C2E911EC68040000DE2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106C2E901EC68040000DE2FC /* AppDelegate.swift */; };
 		106C2E931EC68040000DE2FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106C2E921EC68040000DE2FC /* ViewController.swift */; };
-		106C2E961EC68040000DE2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106C2E941EC68040000DE2FC /* Main.storyboard */; };
 		106C2E981EC68040000DE2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106C2E971EC68040000DE2FC /* Assets.xcassets */; };
 		106C2E9B1EC68040000DE2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106C2E991EC68040000DE2FC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		106A60731ECA67FB00D5E4F3 /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
 		106C2E8D1EC68040000DE2FC /* kindle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kindle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		106C2E901EC68040000DE2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		106C2E921EC68040000DE2FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		106C2E951EC68040000DE2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		106C2E971EC68040000DE2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106C2E9A1EC68040000DE2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		106C2E9C1EC68040000DE2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,10 +56,10 @@
 			children = (
 				106C2E901EC68040000DE2FC /* AppDelegate.swift */,
 				106C2E921EC68040000DE2FC /* ViewController.swift */,
-				106C2E941EC68040000DE2FC /* Main.storyboard */,
 				106C2E971EC68040000DE2FC /* Assets.xcassets */,
 				106C2E991EC68040000DE2FC /* LaunchScreen.storyboard */,
 				106C2E9C1EC68040000DE2FC /* Info.plist */,
+				106A60731ECA67FB00D5E4F3 /* models.swift */,
 			);
 			path = kindle;
 			sourceTree = "<group>";
@@ -126,7 +126,6 @@
 			files = (
 				106C2E9B1EC68040000DE2FC /* LaunchScreen.storyboard in Resources */,
 				106C2E981EC68040000DE2FC /* Assets.xcassets in Resources */,
-				106C2E961EC68040000DE2FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				106C2E931EC68040000DE2FC /* ViewController.swift in Sources */,
+				106A60741ECA67FB00D5E4F3 /* models.swift in Sources */,
 				106C2E911EC68040000DE2FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +145,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		106C2E941EC68040000DE2FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				106C2E951EC68040000DE2FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		106C2E991EC68040000DE2FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +294,7 @@
 				106C2EA11EC68040000DE2FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
